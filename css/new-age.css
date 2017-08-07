@@ -34,12 +34,6 @@ a:hover,
 a:focus {
   color: #7ee1ff;
 }
-hr {
-  max-width: 100px;
-  margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
-}
 hr.light {
   border-color: white;
 }
@@ -52,11 +46,6 @@ h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-}
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
 }
 .navbar-default {
   background-color: white;
@@ -386,4 +375,24 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.card {
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: .3rem;
+  margin-bottom: 12px;
+  background: white;
+}
+.card .card-body {
+  padding: 1.25rem;
+  color: #747373;
+  border-radius: .3rem;
+}
+.card .card-title {
+  color: #212529;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.card .card-text {
+  margin-bottom: 1rem;
 }

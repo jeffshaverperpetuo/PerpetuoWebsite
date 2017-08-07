@@ -21,13 +21,6 @@ a {
     }
 }
 
-hr {
-    max-width: 100px;
-    margin: 25px auto 0;
-    border-width: 1px;
-    border-color: fade(@gray-darker, 10%);
-}
-
 hr.light {
     border-color: white;
 }
@@ -40,14 +33,6 @@ h5,
 h6 {
     .heading-font;
 }
-
-p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-// Navigation
 
 .navbar-default {
     background-color: white;
@@ -399,4 +384,28 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @gray-darker;
+}
+
+.card{
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border-radius: .3rem;
+    margin-bottom: 12px;
+    background: white;
+
+    .card-body{
+        padding: 1.25rem;
+        color: #747373;
+        border-radius: .3rem;
+    }
+
+    .card-title{
+        color: #212529;
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+
+    .card-text{
+        margin-bottom: 1rem;
+    }
 }
